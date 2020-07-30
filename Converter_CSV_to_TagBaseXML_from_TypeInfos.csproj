@@ -115,10 +115,16 @@
     <AdditionalFiles Include="Resources\TypeInfos.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </AdditionalFiles>
+    <None Include="Resources\Input.csv" />
+    <None Include="Resources\Input_bad.csv" />
+    <None Include="Resources\TypeInfos_bad.json" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <Content Include="Resources\Прочти меня.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
